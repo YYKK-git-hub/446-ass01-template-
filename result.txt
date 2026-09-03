@@ -1,0 +1,45 @@
+Microsoft Windows [Version 10.0.19045.7663]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Youkang Shen>cd Desktop
+
+C:\Users\Youkang Shen\Desktop>mkdir folder
+A subdirectory or file folder already exists.
+
+C:\Users\Youkang Shen\Desktop>cd folder
+
+C:\Users\Youkang Shen\Desktop\folder>echo Hello world > hello.txt
+
+C:\Users\Youkang Shen\Desktop\folder>dir
+ Volume in drive C has no label.
+ Volume Serial Number is C654-FAC4
+
+ Directory of C:\Users\Youkang Shen\Desktop\folder
+
+09/02/2026  08:33 PM    <DIR>          .
+09/02/2026  08:33 PM    <DIR>          ..
+09/02/2026  08:33 PM                14 hello.txt
+09/02/2026  03:48 PM                14 hello2.txt
+               2 File(s)             28 bytes
+               2 Dir(s)  26,611,126,272 bytes free
+
+C:\Users\Youkang Shen\Desktop\folder>ren hello.text hello2.txt
+The system cannot find the file specified.
+
+C:\Users\Youkang Shen\Desktop\folder>ren hello.txt hello2.txt
+A duplicate file name exists, or the file
+cannot be found.
+
+C:\Users\Youkang Shen\Desktop\folder>del hello2.txt
+
+C:\Users\Youkang Shen\Desktop\folder>cd ..
+
+C:\Users\Youkang Shen\Desktop>rmdir folder
+The directory is not empty.
+
+C:\Users\Youkang Shen\Desktop>
+
+// Youkang Shen
+// CSCI 446 Fall 2026
+// Programming Assignment #1
+// I declare that I am the author of this work, take full responsibility for it, and have disclosed any material external assistance.
